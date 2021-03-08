@@ -3,8 +3,10 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
-from nltk.corpus import stopwords
+import nltk
 nltk.download(...)
+from nltk.corpus import stopwords
+
 
 
 stop = stopwords.words('english')
