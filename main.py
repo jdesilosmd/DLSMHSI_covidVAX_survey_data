@@ -8,7 +8,7 @@ from nltk.corpus import stopwords
 
 stop = stopwords.words('english')
 #df = pd.read_csv("C://Users//jdesilosmd//Documents//DLSHSI//COVID-19 Vax Team//survey result.csv")
-df = pd.read_csv(survey result.csv")
+df = pd.read_csv('survey result.csv')
 
 st.markdown("# DLSMHSI COVID-19 Vaccination Survey Data")
 st.empty()
