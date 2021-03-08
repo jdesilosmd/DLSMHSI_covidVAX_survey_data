@@ -4,6 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 from nltk.corpus import stopwords
+nltk.download(...)
 
 
 stop = stopwords.words('english')
