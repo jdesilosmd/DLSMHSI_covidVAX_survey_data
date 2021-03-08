@@ -21,6 +21,7 @@ age_hist = px.histogram(df, x='Age', nbins=20, template='seaborn',
                         title='Age Distribution of Respondents (Histogram)')
 st.plotly_chart(age_hist,use_container_width=True)
 
+st.empty()
 st.markdown("### ")
 st.empty()
 st.empty()
